@@ -58,5 +58,13 @@ if (isset($_POST["envoie"])) {
     } else {
         echo "Veuillez remplir tous les champs.";
     }
+
+
+    if ($_GET['logout']){
+        session_destroy();
+        header("Location: index.php");
+    }
+
+
 }
 ?>

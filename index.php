@@ -3,7 +3,7 @@ session_start();
 
 ?>
 
-
+<?php include "./Utils/navbar.php"?>
 
 <!doctype html>
 <html lang="en">
