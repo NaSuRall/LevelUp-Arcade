@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image:url("../img/bakcground-singin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: brightness(60%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.formulaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+.formulaire h1{
+    font-size: 3.3em;
+}
+.border{
+    width: 100%;
+    height: 5px;
+    background-color:#00C9C9;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+}
+.formulaire form{
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulaire form input{
+    width: 100%;
+    font-size: 20px;
+    border-bottom:2px solid #00C9C9;
+    border-top:0px;
+    border-left: 0px;
+    border-right:0px ;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+.formulaire form #envoie{
+    border: none;
+    margin: 20px 0px 20px 0;
+    width: 100%;
+    background-color: #00C9C9;
+    color: white;
+    border-radius: 5px;
+}
+.formulaire a{
+    border: none;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #00C9C9;
+}
+
+.formulaire form label{
+    font-size: 1.1em;
+    left: 0;
+}
+
+.text-bot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.text-bot p{
+    margin-right: 12px;
+}
