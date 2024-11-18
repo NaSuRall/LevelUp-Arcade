@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image:url("../img/background.jpg");
+    background-image:url("../img/bakcground-singin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -44,8 +44,7 @@ body{
 }
 .formulaire form{
     display: flex;
-    align-items: center;
-    justify-content: center;
+
     flex-direction: column;
     width: 100%;
 }
@@ -57,7 +56,7 @@ body{
     border-top:0px;
     border-left: 0px;
     border-right:0px ;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
     padding: 10px;
 }
 .formulaire form #envoie{
@@ -75,13 +74,17 @@ body{
     color: #00C9C9;
 }
 
+.formulaire form label{
+    font-size: 1.1em;
+    left: 0;
+}
 
 .text-bot{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-   justify-content: center;
+    justify-content: center;
 }
 .text-bot p{
     margin-right: 12px;

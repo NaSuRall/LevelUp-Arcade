@@ -1,7 +1,4 @@
-<?php
-session_start();
 
-?>
 
 <?php include "./Utils/navbar.php"?>
 
@@ -19,7 +16,13 @@ session_start();
 
 <?php
 
+    if(isset($_SESSION['pseudo'])){
+
     echo "Bienvenue, " . $_SESSION['pseudo'] . " !";
+
+    }else{
+        echo "Bienvenue";
+    }
 
 ?>
 </body>

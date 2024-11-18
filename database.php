@@ -4,8 +4,8 @@ function Getbdd()
 {
     $servername = "localhost";
     $username = "root";
-    $password = "1012";
-    $dbname = "LevelUp";
+    $password = "";
+    $dbname = "levelup";
 
     try {
         $bdd = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

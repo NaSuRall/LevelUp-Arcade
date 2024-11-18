@@ -19,7 +19,9 @@
                 <input type="password" name="mdp" id="mdp" placeholder="Password">
                 <span><input type="submit" id="envoie" name="envoie" value="Se Connecter"></span>
             </form>
-            <a href="./inscription.php">Inscription</a>
+            <div class="text-bot">
+          <p>Pas de Compte ? </p><a href="./inscription.php">Inscrit toi !</a>
+            </div>
         </div>
     </div>
 </body>
